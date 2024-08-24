@@ -32,6 +32,13 @@ body {
     font-size: 2.1em;
 }
 
+/* Cambiar el color de las fechas para que sean llamativas */
+.fecha {
+    color: #d9534f; /* Color principal para las fechas */
+    font-size: 2em; /* Aumentar el tamaño de la fuente */
+    font-weight: bold;
+}
+
 .wedding-card {
     background-image: url(assets/Fondo.png);
     background-position: center;
