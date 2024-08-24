@@ -1,0 +1,102 @@
+html {
+    /* Me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.tarjeta {
+    height: 100vh;
+    width: 100vw;
+}
+
+.tarjeta h3,
+.tarjeta p,
+.tarjeta h5 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.tarjeta p {
+    font-size: 1.3em;
+}
+
+.tarjeta h4 {
+    font-family: "Parisienne", cursive;
+    font-size: 1.5em;
+}
+
+.tarjeta .iglesia {
+    font-family: "Tangerine", cursive;
+    font-size: 2.1em;
+}
+
+.wedding-card {
+    background-image: url(assets/Fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    padding: 30px;
+}
+
+.card-title {
+    font-family: 'Georgia', serif;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.card-subtitle {
+    font-family: 'Georgia', serif;
+    color: #555;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: #777;
+}
+
+.rsvp-btn {
+    background-color: #d9534f;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.rsvp-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Estilos del carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+@media (max-width: 768px) {
+    .wedding-card {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .carousel-inner img {
+        border-radius: 10px;
+    }
+}
