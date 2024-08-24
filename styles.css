@@ -6,6 +6,7 @@ body {
     background-color: #f8f9fa;
     margin: 0;
     padding: 0;
+    color: #3e3e3e; /* Color de texto principal */
 }
 
 .tarjeta {
@@ -20,21 +21,23 @@ body {
 
 .tarjeta p {
     font-size: 1.3em;
+    color: #3e3e3e; /* Color de texto */
 }
 
 .tarjeta h4 {
     font-family: "Parisienne", cursive;
     font-size: 1.5em;
+    color: #3e3e3e; /* Color de texto */
 }
 
 .tarjeta .iglesia {
     font-family: "Tangerine", cursive;
     font-size: 2.1em;
+    color: #3e3e3e; /* Color de texto */
 }
 
-/* Cambiar el color de las fechas para que sean llamativas */
 .fecha {
-    color: #d9534f; /* Color principal para las fechas */
+    color: #debd90; /* Color principal para las fechas */
     font-size: 2em; /* Aumentar el tamaño de la fuente */
     font-weight: bold;
 }
@@ -43,35 +46,39 @@ body {
     background-image: url(assets/Fondo.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 90%;
     border: none;
     padding: 30px;
+    color: #3e3e3e; /* Color de texto para todo el contenido de la tarjeta */
 }
 
 .card-title {
     font-family: 'Georgia', serif;
-    color: #333;
+    color: #bec0b4;
     font-size: 2.5rem;
 }
 
 .card-subtitle {
     font-family: 'Georgia', serif;
-    color: #555;
+    color: #bec0b4;
     font-size: 1.5rem;
 }
 
 .card-text {
-    color: #777;
+    color: #bec0b4;
 }
 
 .rsvp-btn {
-    background-color: #d9534f;
+    background-color: #debd90;
     border: none;
     transition: background-color 0.3s;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .rsvp-btn:hover {
-    background-color: #c9302c;
+    background-color: #caa67a; /* Color de fondo al hacer hover */
 }
 
 /* Estilos del carrusel */
@@ -79,6 +86,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 15px;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
 }
 
 .carousel-control-prev-icon,
